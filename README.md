@@ -6,5 +6,6 @@ A python based elastic search ML project. This repo uses pipenv for development.
 
 # Get Started
 1. run `pipenv install && pipenv install --dev`. You only need to run this when the dependency is changed.
-2. run `pipenv shell`. This opens the pipenv shell for you.
-3. run `pipenv run python src/main.py`
+2. run `pipenv shell`
+3. run `pre-commit install`
+4. run `pipenv run python src/main.py`
